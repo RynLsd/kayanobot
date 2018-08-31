@@ -8,7 +8,7 @@ bot.on('ready', function() {
     console.log('Connected');
 });
 
-bot.login('NDY5NjkzMDc5MDYzMTAxNDQ0.DjLhhA.Nxg2ER_V3PMFDpjs1EgI0nK7Eb0')
+bot.login(process.env.TOKEN)
 
 bot.on('ready', function() {
     bot.user.setGame('se faire péter le cul par LaBase')    
